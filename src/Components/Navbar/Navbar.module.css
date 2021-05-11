@@ -44,18 +44,13 @@
 	background: #6dd47e;
 	border: 2px solid #293250;
 	transition:  0.3s;
-
-
  }
+
 .flexRow  button:hover {
 	box-sizing: border-box;
 	background: #6dd47e83;
-	/* border: 2px solid #293250; */
-	/* text-decoration: underline; */
-
-
-
  }
+
 .clearAllCompleted  button{
 	font-weight: 800;
 	box-sizing: border-box;
@@ -108,10 +103,33 @@
 	 body{
 		 overflow-x: hidden;
 	 }
-	 .mainFlexRow{
-
-		width: 100%;
-
-		
+	 .mainFlexRow{	
+		 width: 100%;
 	}
+	.flexRow  button:active {
+		background: 0;
+		border: 0;
+		transition:  0;
+	 }
+	
+	.flexRow  button:hover {
+		box-sizing: 0;
+		background: 0;
+	 }
+	 .clearAllCompleted  button:active {
+	
+		background: 0;
+		text-decoration:0;
+		transition:  0;
+	
+	
+	
+	 }
+	.clearAllCompleted  button:hover {
+		box-sizing: 0;
+		background: 0;
+		text-decoration: 0;
+	 }
+	
+	 
 	}

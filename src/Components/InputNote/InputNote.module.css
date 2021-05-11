@@ -54,16 +54,21 @@
  }
  
 
- /* @media screen and (max-width: 479px) {
+ @media screen and (max-width: 479px) {
 	 body{
 		 overflow-x: hidden;
 	 }
-	.inputElement{
-		width: 90%;
-		margin: 0 auto;
-	}	
-	.inputElement input{
-		width: 100%;
-
+	 .buttonElement button:active {
+		background: 0;
+		border: 0;
+		transition: 0;
+	
+	
+	 }
+	.buttonElement button:hover {
+		box-sizing: 0;
+		background: 0;
+		text-decoration: 0;
+	 }
+	 
 	}
-	} */
