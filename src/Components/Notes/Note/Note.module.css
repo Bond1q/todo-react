@@ -1,0 +1,40 @@
+.note{
+	box-sizing: border-box;
+	background: #6dd47e;
+	width:500px ;
+	margin: 0 auto;
+	padding: 10px 0;
+	padding-left: 15px;
+	border-bottom: 1px solid #29325052;
+	color: #293250;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+	overflow: hidden;
+	white-space: pre-line;
+	overflow-wrap: break-word;
+
+}
+.note:last-child{
+	border-bottom: none;
+}
+.completed{
+	color: #29325069;
+		text-decoration: line-through;
+	-webkit-transition: 0.5s;
+	transition: color 0.4s
+}
+
+.noteEffect{
+	color: #293250;
+
+	-webkit-transition: 0.5s;
+	transition: color 0.4s
+}
+
+span{
+	float: right;
+	margin-right: 15px;
+	cursor: pointer;
+	transition:  0.4s
+}
