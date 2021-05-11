@@ -88,7 +88,7 @@
 	/* border: 2px solid #293250; */
 	text-decoration: underline;
  }
- 
+
 .activeNotes{
 	color: #293250;
 	font-size: 15px;
@@ -103,3 +103,15 @@
 	border: 3px solid #293250;;
 }
 
+
+ @media screen and (max-width: 479px) {
+	 body{
+		 overflow-x: hidden;
+	 }
+	 .mainFlexRow{
+
+		width: 100%;
+
+		
+	}
+	}
