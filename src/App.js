@@ -17,7 +17,7 @@ const App = () => {
 			<Route path='/active' render={() => <ShowTypeNotes />} />
 			<Route path='/completed' render={() => <ShowTypeNotes />} />
 			<Navbar />
-			<div className='hint'>Use a double click on the green area <br /> if you want to make your note completed</div>
+			<div className='hint'>Use a double click on the note area <br /> if you want to make your note completed</div>
 		</div>
 	);
 }

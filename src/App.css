@@ -1,4 +1,5 @@
 .App {
+	position: relative;
   text-align: center;
   width: 900px;
   background: rgb(246, 255, 169);
@@ -19,8 +20,11 @@ box-shadow: 0px 0px 40px 20px rgba(34, 60, 80, 0.2);
 	color:#29325062;
 }
 .hint{
-	margin-top: 45px;
-	padding-bottom: 20px;
+	/* margin-top: 120px; */
+	position:absolute;
+width: 100%;	
+bottom: 20px;;
+
 	font-size:1em;
 	font-weight: bold;
 	color:#29325062;
