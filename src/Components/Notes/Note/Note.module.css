@@ -1,11 +1,11 @@
 .note{
 	box-sizing: border-box;
-	background: #6dd47e;
+	background: rgb(246, 255, 169);
 	width:500px ;
 	margin: 0 auto;
 	padding: 10px 0;
 	padding-left: 15px;
-	border-bottom: 1px solid #29325052;
+	border-bottom: 2px solid #29325052;
 	color: #293250;
 	font-size: 20px;
 	font-weight: 600;

@@ -33,7 +33,7 @@
 	outline: none;
 	font-size: 15px;
 	color: #293250;
-	background: #ffd55a;
+	background: rgb(246, 255, 169);
 	border: 2px solid #293250af;
 	border-radius: 7px;
 	padding: 3px 7px;
@@ -48,8 +48,11 @@
 
 .flexRow  button:hover {
 	box-sizing: border-box;
-	background: #6dd47e83;
- }
+	/* background: rgb(238, 255, 84); */
+	-webkit-box-shadow: 0px 0px 10px 1px rgb(92, 92, 92);
+-moz-box-shadow: 0px 0px 10px px rgb(92, 92, 92);
+box-shadow: 0px 0px 10px 1px rgb(92, 92, 92);
+}
 
 .clearAllCompleted  button{
 	font-weight: 800;
@@ -60,7 +63,7 @@
 	outline: none;
 	font-size: 15px;
 	color: #293250;
-	background: #ffd55a;
+	background: rgb(246, 255, 169);
 	/* border: 2px solid #293250af; */
 	border-radius: 7px;
 	padding: 3px 7px;
@@ -69,7 +72,6 @@
 }
 .clearAllCompleted  button:active {
 	
-	background: #6dd47e;
 	/* border: 2px solid #293250; */
 	text-decoration: underline;
 	transition:  0.3s;
@@ -79,8 +81,10 @@
  }
 .clearAllCompleted  button:hover {
 	box-sizing: border-box;
-	background: #6dd47e83;
 	/* border: 2px solid #293250; */
+	/* -webkit-box-shadow: 0px 0px 10px 1px rgb(92, 92, 92);
+	-moz-box-shadow: 0px 0px 10px px rgb(92, 92, 92);
+	box-shadow: 0px 0px 10px 1px rgb(92, 92, 92); */
 	text-decoration: underline;
  }
 
